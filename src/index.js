@@ -24,8 +24,7 @@ class App extends Component {
             this.setState({ videos: videos,
             selectedVideo: videos[0] 
         });
-            console.log(videos);
-        });
+    });
 
     }
     render () {
